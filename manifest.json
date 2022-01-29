@@ -1,0 +1,22 @@
+{
+    "version": "0.1",
+    "manifest_version": 2,
+    "author": "Marcos D.",
+    "name": "CodeBy Product Viewer",
+    "description": "This is an extension built by CodeBy to help VTEX developers get product information.",
+    "icons": {
+        "16": "images/codeby-16.png",
+        "32": "images/codeby-32.png",
+        "48": "images/codeby-48.png",
+        "128": "images/codeby-128.png"
+    },
+    "permissions": [
+        "background",
+        "http://*/*",
+        "https://*/*",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_popup": "popups/default.html"
+    }
+}
